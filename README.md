@@ -27,7 +27,7 @@ Assim o SimpleX não escreve nada no seu `~/.local`, `~/.config` ou `~/.cache`.
 
 ## Instalação
 
-1. Baixe o AppImage do SimpleX Desktop em <https://simplex.chat/downloads/>.
+1. Baixe o AppImage do SimpleX Desktop em <https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage>.
 2. Coloque o arquivo nesta pasta com o nome `simplex-desktop.AppImage`.
 3. Dê permissão de execução:
 
