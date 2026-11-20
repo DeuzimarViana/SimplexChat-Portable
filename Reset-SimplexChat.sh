@@ -96,7 +96,7 @@ pos_reset() {
   local r
   echo
   read -rp "  Iniciar o SimpleX agora? [s/N] " r
-  [[ "$r" =~ ^[Ss]$ ]] && exec "$DIR/iniciar-simplex.sh"
+  [[ "$r" =~ ^[Ss]$ ]] && exec "$DIR/SimplexChat-inicializador.sh"
 }
 
 executar_reset() {
@@ -150,7 +150,7 @@ reset_seletivo() {
         i=$((r-1))
         if [[ ${marcados[$i]} -eq 1 ]]; then marcados[$i]=0; else marcados[$i]=1; fi
         ;;
-      a|A) marcados=(1 1 1 1) ;;
+      a|A) marcados=(1 1 1 1 1) ;;
       c|C) break ;;
       v|V|q|Q) return ;;
     esac
